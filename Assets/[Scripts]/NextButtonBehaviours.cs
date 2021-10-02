@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartButtonBehaviours : MonoBehaviour
+public class NextButtonBehaviours : MonoBehaviour
 {
-    public void OnStartButtonPressed()
+    public void OnNextButtonPressed()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("End");
     }
-
 }
